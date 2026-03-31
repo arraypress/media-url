@@ -1,15 +1,34 @@
 {
   "name": "@arraypress/media-url",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Build media URLs with optional Cloudflare Image Resizing transforms.",
   "type": "module",
   "main": "src/index.js",
   "types": "src/index.d.ts",
-  "exports": { ".": { "import": "./src/index.js", "types": "./src/index.d.ts" } },
-  "files": ["src"],
-  "scripts": { "test": "node --test tests/media-url.test.js" },
-  "keywords": ["media", "url", "cloudflare", "image-resizing", "cdn", "r2"],
+  "exports": {
+    ".": {
+      "import": "./src/index.js",
+      "types": "./src/index.d.ts"
+    }
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test tests/media-url.test.js"
+  },
+  "keywords": [
+    "media",
+    "url",
+    "cloudflare",
+    "image-resizing",
+    "cdn",
+    "r2"
+  ],
   "author": "David Sherlock",
   "license": "MIT",
-  "repository": { "type": "git", "url": "https://github.com/arraypress/media-url" }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arraypress/media-url"
+  }
 }
